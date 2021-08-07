@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Proxima Beta">
+        <meta name="Copyright" content="Proxima Beta">
+        <title></title>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+            var search = window.location.search
+            if(search){
+                window.location.href = "/{# LANG #}/event/cbt/m/index.shtml"+ search
+            }else{
+                window.location.href = "/{# LANG #}/event/cbt/m/index.shtml"
+            }
+        }
+        </script>
+        <!-- End Facebook Pixel Code -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="main">
+                <div class="vb"></div>
+                <div class="advance">
+                    <div class="advance-l">
+                        <div class="ad1">Advanced Alpha<br/>starts on </div>
+                        <div class="ad2">September 3rd</div>
+                        <div class="ad3">Apply now for a chance to be selected!</div>
+                    </div>
+                    <div class="advance-r">
+                        <img src="images/sign.png" alt="" class="sign">
+                        <div class="add">
+                            <img src="images/icon.png" alt="">
+                            <span>Add to Steam Wishlist</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bot">
+                <div class="icons">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+                <div class="links">
+                    <a href="">Customer Service</a>
+                    <span></span>
+                    <a href="">Terms of Use</a>
+                    <span></span>
+                    <a href="">Privacy</a>
+                    <span></span>
+                    <a href="">Partnership Inquiry</a>
+                </div>
+                <div class="bot-desc">Copyright © 2021 Tencent. All Rights Reserved</div>
+            </div>
+        </div>
+      
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

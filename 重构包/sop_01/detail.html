@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+
+<meta name="Description" content="SOP" />
+<meta name="Keywords" content="SOP" />
+<title>SOP website</title>
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+<link rel="stylesheet" href="css/tips.css">
+<link rel="stylesheet" href="css/news.css">
+</head>
+<body>
+<div class="wrap">
+    <!--#include virtual="/inc/header.inc" -->
+    <div class="news">
+        <div class="news_content">
+            <div class="crumb">HOME/NEWS</div>
+            <div class="topbar">
+                <h2 class="hd">NEWS</h2>
+            </div>
+            <div class="pager"></div>
+            <div class="newsdetail">
+                <div class="rt_side">
+                    <div class="swiper-container3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href="episodic.html"><img src="images/rt_side_img1.png" alt=""></a></div>
+                            <div class="swiper-slide"><a href="tactical.html"><img src="images/rt_side_img2.png" alt=""></a></div>
+                            <div class="swiper-slide"><a href="survival.html"><img src="images/rt_side_img3.png" alt=""></a></div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="rt-button-next rt_arrow_btn pa"></div>
+                        <div class="rt-button-prev rt_arrow_btn pa"></div>
+                    </div>
+                    <div class="other">
+                        <h2><img src="images/ohternews.png" alt="ohter news"></h2>
+                        <div class="pager"></div>
+                    </div>
+                    <ul class="rtlist">
+                        <li>
+                            <a href="detail.html">
+                                <span>2020 / 07 / 28    BY XXXXXX</span>
+                                <p>A VARIETY OF TACTICAL EQUIPMENT</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <span>2020 / 07 / 28    BY XXXXXX</span>
+                                <p>A VARIETY OF TACTICAL EQUIPMENT</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <span>2020 / 07 / 28    BY XXXXXX</span>
+                                <p>A VARIETY OF TACTICAL EQUIPMENT</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="detail.html">
+                                <span>2020 / 07 / 28    BY XXXXXX</span>
+                                <p>A VARIETY OF TACTICAL EQUIPMENT</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="newlist.html" class="news_more">MORE >></a>
+                </div>
+                <div class="lf_side">
+                    <h2>A VARIETY OF TACTICAL EQUIPMENT</h2>
+                    <span class="date">2020 / 07 / 28    BY XXXXXX</span>
+                    <div class="detail_bar">
+                        <img src="images/detail_img.png" alt="">
+                        <p>Various behaviors gain experience value upgrade, unlock various skills or passivity.Various behaviors gain experience value upgrade, unlock various skills or passivity.Various behaviors gain experience value upgrade, unlock various skills or passivity.Various behaviors gain experience value upgrade, unlock various skills or passivity.Various behaviors gain experience value upgrade, unlock various skills or passivity.Various behaviors gain experience value upgrade, unlock various skills or passivity.Various behaviors gain experience value upgrade, unlock various skills or passivity.Various behaviors gain experience value upgrade, unlock various skills or passivity.Various behaviors gain experience value upgrade, unlock various skills or passivity.Various behaviors gain experience value upgrade, unlock various skills or passivity.Various behaviors gain experience value upgrade, unlock various skills or passivity.Various behaviors gain experience value upgrade, unlock various skills or passivity.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="pager2"></div>
+        </div>
+        <!--#include virtual="/inc/footer.inc" -->
+    </div>
+</div>
+<!--#include virtual="/inc/tips.inc" -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+<script src="js/showDialog.js"></script>
+<script src="js/main.js"></script>
+<script>
+    ////
+var swiper = new Swiper('.swiper-container3', {
+    loop : true,
+    navigation: {
+        nextEl: '.rt-button-next',
+        prevEl: '.rt-button-prev',
+    }
+});
+</script>
+</body>
+</html>

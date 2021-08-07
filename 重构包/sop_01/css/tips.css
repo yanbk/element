@@ -1,0 +1,64 @@
+.tip { width:1346px;height: auto;}
+.tip_title_bg {width:100%;height: 60px;background-image: url(../images/tip_title.png); background-repeat: no-repeat;}
+.tip_title_bg a.closebtn { width:72px;height: 60px; float:right; display: block;}
+.tip_title1 { background-position: right 0;}
+.tip_title2 { background-position: right -60px;}
+.tip_title3 { background-position: right -120px;}
+.tip_title4 { background-position: right -180px;}
+.tip_title5 { background-position: right bottom;}
+.tip_cont {background-image: url(../images/tip_bg.png);border-top: 1px solid #c81446; background-repeat: no-repeat; background-position: 0 bottom; padding:75px 0;}
+.t1 { width: 814px;height:auto;margin: 0 auto; position: relative;}
+.t2 { width: 662px;height:auto;margin: 0 auto; position: relative;}
+.t3 { width: 1033px;height:auto;margin: 0 auto; position: relative;}
+.t4 { width: 662px;height:auto;margin: 0 auto; position: relative;}
+.t1 ul { display: block;}
+.t1 ul li { display: block;width: 100%;height: 66px;margin-bottom: 25px; position: relative;}
+.t1 ul li input { border: none;width:677px;height: 66px; color: #5c5c5c;font-size:18px;font-family: 'Eurostile-Reg';}
+.tip_ico { background-image: url(../images/tip_ico.png); background-repeat: no-repeat;}
+.user input {background-position: 0 0; background-color: transparent; padding-left:59px;}
+.password input {background-position: 0 -66px; background-color: transparent; padding-left:59px;}
+.user,.password,.code { border-bottom: 2px solid #c81346;}
+.agreebtn2,.agreebtn3 {width:300px;font-size:18px;color: #fff; cursor: pointer;}
+.agreebtn2 a,.agreebtn3 a {color: #fff;}.agreebtn2 a:hover,.agreebtn3 a:hover { text-decoration: underline;}
+.agreebtn2 span,.agreebtn3 span {width:24px;height: 24px; display: block; margin-right:5%; float: left; border: 1px solid #c81346;}
+.agreebtn2 span.yes,.agreebtn3 span.yes { background: url(../images/agree.png) no-repeat;}
+.t1 ul li a { float: right; color:#c81346;font-size: 18px; text-decoration: underline;}
+.tipbtnbar { width: 100%; overflow: hidden; margin-bottom: 5px;}
+.tipbtnbar a { display: block;}
+.tip_btn_bg {background-image: url(../images/tip_btn.png); background-repeat: no-repeat;}
+.loginbtn { float: left;width:289px;height: 75px; background-position: 0 0;}
+.accountbtn {float: right;width:487px;height: 75px; background-position: -289px 0;}
+.t2 ul { display: block;}
+.t2 ul li { display: block;width: 100%;height: 66px;margin-bottom: 25px; position: relative;}
+.t2 ul li input { border: none;width:573px;height: 66px; color: #5c5c5c;font-size:18px;font-family: 'Eurostile-Reg';}
+.sendbtn {width:565px;height: 75px; background-position: -289px -75px;margin:0 auto;}
+.submitbtn2,.submitbtn3 {width:289px;height: 75px; background-position: 0 -75px;margin:0 auto;}
+.code input {background-position: 0 -198px; background-color: transparent; padding-left:59px;}
+.gt { width:25px;height: 66px; background-position: 0 -132px; position: absolute;top:0;right:0;}
+.gt:hover .popbar { display: block;}
+.no_n {width:60px;height: 66px; background-position: 0 -264px; position: absolute;top:0;right:-66px; z-index: 996;}
+.yes_n {width:60px;height: 66px; background-position: 0 -330px; position: absolute;top:0;right:-66px; z-index: 996;}
+.popbar { width:404px;height: auto; position: absolute;left: -233px;top: 49px; z-index: 999; display: none;}
+.popbar_top {width: 100%;height:14px; background-position:right -157px;font-size: 0;line-height: 0;}
+.popbar_bottom {width: 90%;height:auto; background-position:right bottom;font-size: 12px;color: #fff; padding:15px 5%;}
+
+.t3 ul { display: block;width:662px;margin-bottom:40px;}
+.t3 ul li { display: block;width: 100%;height: 66px;margin-bottom: 25px; position: relative;}
+.t3 ul li input { border: none;width:573px;height: 66px; color: #5c5c5c;font-size:18px;font-family: 'Eurostile-Reg';}
+.verifbtn { width:359px;height:62px; background-position: 0 -150px;right:-412px;top:0;font-size: 18px; color: #fff; line-height: 60px; text-align:center;}
+.verifbtn img { vertical-align: middle;}
+.verifbtn em { font-style: normal;}
+
+.t5 {padding:100px 0;}
+.donetxt {width:294px;height:40px; background-position:0 bottom;margin:0 auto 30px auto;}
+.backbtn {width:289px;height: 75px; display: block; background-position:0 -212px;margin:0 auto 12px;}
+.djs { font-size: 18px; text-align: center;color: #fff;}
+.djs2 { font-size: 18px; text-align: center;color: #fff;}
+
+
+.pop {width:70%;border:1px solid #c81446; display: none;}
+.closebtn2 { display: block;width:73px;height:62px; background: url(../images/closebtn.png) no-repeat; position: absolute;right:-1px;top:-63px}
+.med_body {width:100%;}
+.med_body video,.med_body img { width: 100%;height: auto;}
+.email_pop {display: block;left:0;top:-30px;font-size:18px;color:#dadada; position: absolute;}
+.wrong { color: #ebc52b;}

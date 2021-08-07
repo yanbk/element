@@ -1,0 +1,77 @@
+/*reset*/
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form{margin:0}
+body,button,input,select,textarea{font:12px/1.5 tahoma,'\5b8b\4f53',sans-serif}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em,b{font-style:normal}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+img{border:0;vertical-align:top;}
+button,input,select,textarea{font-size:100%;outline:none;font-family: "Microsoft yahei"}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0}
+body{width:100%; /*overflow-x:hidden;*/}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+.cf{*zoom:1;}
+.cf:after{content:"";display:block;height:0;clear:both;overflow:hidden;}
+.clear{clear:both;overflow:hidden;}
+.hide{display:none}
+.ishow{display:block!important}
+.ht{text-indent:-9999px;overflow:hidden}
+.clearfix:after{content: "";display: block;visibility: hidden;height: 0;clear: both;}
+.clearfix{zoom: 1;}
+.fl{float:left;}
+.fr{float: right;}
+ul,li{list-style:none;}
+.pr{position:relative;}
+.pa {position:absolute;}
+.hd { overflow: hidden; text-indent: -999em;}
+
+body{font-family:'Eurostile-Reg',Verdana, Geneva, Tahoma, sans-serif;position: relative; background-color: #000;}
+
+.wrap { width: 100%;height: auto; min-width: 1400px;}
+.navbar { width: 100%;height:125px; background: url(../images/nav_bg.jpg) repeat-x center 0;left:0;top:0; z-index: 999;min-width: 1400px; position: relative;}
+.logo {width:264px;height: 179px; background: url(../images/logo.png) no-repeat;left:0;top:0; z-index: 999;}
+.nav_rt {width:84px;height: 175px; background: url(../images/nav_rt.png) no-repeat;right:0;top:0;}
+ul.n_lf { display: block; float: left; padding:51px 0 0 265px;width:40%; position: relative;}
+ul.n_lf i {font-size:16px;color: #fff; font-style: normal; position: absolute;right:0;top:6px}
+ul.n_lf li { float: left; position: relative;padding:0 8%;}
+ul.n_lf li a:hover {color: #c81346;}
+ul.n_lf li a,ul.n_rt li a {height: 100%;display: block;color: #fff; font-size: 24px; float: left;}
+
+
+ul.n_rt { display: block;padding:51px 5% 0 0; position: absolute;right: 0;top:0}
+ul.n_rt li { float: left;padding:0 22px;}
+ul.n_rt li a:hover {color: #c81346;}
+ul.n_rt li.n1 a,ul.n_rt li.n2 a {background-image: url(../images/navlist.png); background-repeat:no-repeat; display: block; padding-left: 40px;}
+ul.n_rt li.n1 a { background-position: 0 0;}
+ul.n_rt li.n1 a:hover {background-position: 0 -124px;}
+ul.n_rt li.n2 a { background-position: 0 -62px;}
+ul.n_rt li.n2 a:hover {background-position: 0 -186px;}
+ul.n_rt li.n3 {padding:0 0 0 22px;}
+ul.n_rt li.n3 img {width:37px;height:37px; float: left;border: 1px solid #c81346; border-radius: 100%; vertical-align: middle; margin-right: 13px;}
+ul.n_rt li.n3 span { float: left;color: #fff; font-size: 24px; display: block;}
+ul.n_rt li.n3 i { float: left; display: block;color: #fff; font-size:16px; padding:0 13px; font-style: normal;line-height: 30px;}
+@font-face {
+    font-family: 'Eurostile-Bol';
+    src: url('../font/Eurostile-Bol.eot');
+    src:
+        url('../font/Eurostile-Bol.eot?#font-spider') format('embedded-opentype'),
+        url('../font/Eurostile-Bol.woff') format('woff'),
+        url('../font/Eurostile-Bol.ttf') format('truetype'),
+        url('../font/Eurostile-Bol.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Eurostile-Reg';
+    src: url('../font/Eurostile-Reg.eot');
+    src:
+        url('../font/Eurostile-Reg.eot?#font-spider') format('embedded-opentype'),
+        url('../font/Eurostile-Reg.woff') format('woff'),
+        url('../font/Eurostile-Reg.ttf') format('truetype'),
+        url('../font/Eurostile-Reg.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+  

@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+
+<meta name="Description" content="SOP" />
+<meta name="Keywords" content="SOP" />
+<title>SOP website</title>
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/user.css">
+<link rel="stylesheet" href="css/tips.css">
+</head>
+<body>
+<div class="wrap">
+    <!--#include virtual="/inc/header.inc" -->
+    <div class="user_main">
+        <h2 class="hd">Account Configuration</h2>
+        <div class="user_info">
+            <ul class="user_menu_list">
+                <li class="u1"><a href="info.html">Basic Info</a></li>
+                <li class="u2"><a href="password.html">Change Password</a></li>
+                <li class="u3"><a href="javascript:;" class="cur">Delete my account</a></li>
+            </ul>
+            <div class="user_rt_bg">
+                <p class="Reminder">Reminder: once deleted, all your data, including in-game avatars, items, and records will be wiped out and cannot be recovered.</p>
+                <ul class="info">
+                    <li><span class="type">Account & Registered Email :</span><span>qwe12e12</span></li>
+                    <li><span class="type">Password :</span>
+                        <div class="write"><input type="text" value="Please enter your old password" onblur="if(this.value=='')this.value='Please enter your old password'" onfocus="if(this.value=='Please enter your old password')this.value=''">
+                            <a href="javscript:;" class="gt tip_ico">
+                                <div class="popbar">
+                                    <div class="popbar_top tip_btn_bg"></div>
+                                    <div class="popbar_bottom tip_btn_bg">
+                                        Or click on your activation link received from your mail box.
+                                    </div>
+                                </div>
+                            </a>
+                            <i class="no_n tip_ico"></i>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tipbtnbar">
+                    <a href="javascript:;" class="sendbtn tip_btn_bg hd">SUBMIT</a>
+                </div>
+                <ul class="info">
+                    <li><span class="type">Verification Code :</span>
+                        <div class="write"><input type="text" value="Please enter your verification code" onblur="if(this.value=='')this.value='Please enter your verification code'" onfocus="if(this.value=='Please enter your verification code')this.value=''">
+                            <a href="javscript:;" class="gt tip_ico">
+                                <div class="popbar">
+                                    <div class="popbar_top tip_btn_bg"></div>
+                                    <div class="popbar_bottom tip_btn_bg">
+                                        Please enter the verification code in your registered email address.
+                                    </div>
+                                </div>
+                            </a>
+                            <i class="yes_n tip_ico"></i>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tipbtnbar">
+                    <a href="javascript:;" class="submitbtn3 tip_btn_bg hd">SUBMIT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="complete">
+        <div class="t5">
+            <div class="donetxt tip_btn_bg hd">we are all set!</div>
+            <a href="index.html" class="backbtn tip_btn_bg hd">back to main page</a>
+            <div class="djs2">[<span>10</span>s]</div>
+        </div>
+    </div>
+</div>
+<!--#include virtual="/inc/tips.inc" -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/showDialog.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

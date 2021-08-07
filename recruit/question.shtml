@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Proxima Beta">
+        <meta name="Copyright" content="Proxima Beta">
+        <title></title>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+            var search = window.location.search
+            if(search){
+                window.location.href = "/{# LANG #}/event/cbt/m/index.shtml"+ search
+            }else{
+                window.location.href = "/{# LANG #}/event/cbt/m/index.shtml"
+            }
+        }
+        </script>
+        <!-- End Facebook Pixel Code -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+        <div class="q-container">
+            <div class="q-main">
+                <div class="word1">SIGN UP FOR THE SYNCED: OFF-PLANET ADVANCED ALPHA TODAY!</div>
+                <div class="word2">Register now for exclusive skins and other unique rewards!</div>
+                <div class="word3">To apply for the Advanced Alpha test of SYNCED: Off-Planet, please answer the questions below.<br/>
+                    The Advanced Alpha is a closed test. Only a limited number of players will be admitted.<br/>
+                    If you are not admitted into this test, don't worry! There will be many more opportunities to test SYNCED: Off-Planet soon!</div>
+                <div class="word-title">Pease enter your email address:</div>
+                <div class="word4">Make sure you enter a vaild email address. We will send you your Steam key with an email, if the email you enter is incorrect you will not receive your key!</div>
+                <input class="email" type="text" placeholder="Your email address">
+                <div class="word-title">What is your age?</div>
+                <div class="sel-box selectAge">
+                    <div class="sel-list">
+                        <input type="radio" name="age" value="17 or younger">
+                        <label></label>
+                        <span>17 or younger</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="age" value="18-22">
+                        <label></label>
+                        <span>18-22</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="age" value="23-27">
+                        <label></label>
+                        <span>23-27</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="age" value="28-32">
+                        <label></label>
+                        <span>28-32</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="age" value="33-35">
+                        <label></label>
+                        <span>33-35</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="age" value="36 or older">
+                        <label></label>
+                        <span>36 or older</span>
+                    </div>
+                </div>
+                <div class="word-title">Where do you live?</div>
+                <div class="sel-box">
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="Australia">
+                        <label></label>
+                        <span>Australia</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="Brazil">
+                        <label></label>
+                        <span>Brazil</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="France">
+                        <label></label>
+                        <span>France</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="Germany">
+                        <label></label>
+                        <span>Germany</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="India">
+                        <label></label>
+                        <span>India</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="Italy">
+                        <label></label>
+                        <span>Italy</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="Japan">
+                        <label></label>
+                        <span>Japan</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="Russia">
+                        <label></label>
+                        <span>Russia</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="South Korea">
+                        <label></label>
+                        <span>South Korea</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="Spain">
+                        <label></label>
+                        <span>Spain</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="Thailand">
+                        <label></label>
+                        <span>Thailand</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="Turkey">
+                        <label></label>
+                        <span>Turkey</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="United Kindom">
+                        <label></label>
+                        <span>United Kindom</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="country" value="United States">
+                        <label></label>
+                        <span>United States</span>
+                    </div>
+                </div>
+                <div class="live">
+                    <span class="word5">Others, please specfify:</span>
+                    <input class="other-live otherCountry" type="text" placeholder="Country…">
+                </div>
+                <div class="word-title">Which of the following genres of PC/Console Games do you play most offen? (Choose 3 options)</div>
+                <div class="check-box genres">
+                    <div class="sel-list">
+                        <input type="checkbox" value="Shooter">
+                        <label></label>
+                        <span>Shooter (e.g. Call of Duty, Counter-Strike, PUBG, Fortnite, Apex Legends, etc.)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="checkbox" value="MOBA">
+                        <label></label>
+                        <span>MOBA (e.g. League of Legends, DotA 2, Heros of the Storm)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="checkbox" value="Role Playing">
+                        <label></label>
+                        <span>Role Playing Games (RPG) (e.g. The Witcher, Fallout, Elder Scrolls, etc.)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="checkbox" value="MMORPG">
+                        <label></label>
+                        <span>MMORPG (e.g. World of Warcraft, Final Fantasy XIV, The Elder Scrolls: Online)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="checkbox" value="Sports">
+                        <label></label>
+                        <span>Sports (e.g. NBA 2K20, FIFA 20, Madden NFL 19, Rocket League, etc.)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="checkbox" value="Strategy">
+                        <label></label>
+                        <span>Strategy (e.g. Sid Meier's Civilization, Frostpunk, etc.)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="checkbox" value="Trading Cards">
+                        <label></label>
+                        <span>Trading Cards (e.g. Legends of Runeterra, Heathstone, Shadowverse, etc.)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="checkbox" value="Life Simulation">
+                        <label></label>
+                        <span>Life Simulation (e.g. The Sims, Animal Crossing, etc.)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="checkbox" value="Vehicle Simulation">
+                        <label></label>
+                        <span>Vehicle Simulation (e.g. Flight Simulation, Euro Truck Simulator 2, etc.)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="checkbox" value="Action RPG">
+                        <label></label>
+                        <span>Action RPG (e.g. Devil May Cry 5, Seiko: Shadows Die Twice, Monster Hunter World, etc.)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="checkbox" value="Fighting">
+                        <label></label>
+                        <span>Fighting (e.g. Brawhalla, Street Fighter V, Tekken 7, etc.)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="checkbox" value="Music & Rhythm">
+                        <label></label>
+                        <span>Music & Rhythm (e.g. OSU, Muse Dash, DJMAX, etc.)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="checkbox" value="Sandbox">
+                        <label></label>
+                        <span>Sandbox (e.g. Minecraft, Terrara, Stardew Valley, etc)</span>
+                    </div>
+                </div>
+                <div class="live">
+                    <span class="word5">Others, please specify:</span>
+                    <input class="other-live otherGenres" type="text" placeholder="">
+                </div>
+                <div class="word-title">Which shooter genre(s) do you play the most? (Choose only 1 option)</div>
+                <div class="check-box shooter">
+                    <div class="sel-list">
+                        <input type="radio" name="shooter" value="Arena Shooters">
+                        <label></label>
+                        <span>Arena Shooters (e.g. Quake, DOOM, Splitgate)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="shooter" value="Hero Shooters">
+                        <label></label>
+                        <span>Hero Shooters (e.g. Overwatch, Paladins)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="shooter" value="Battle Royale">
+                        <label></label>
+                        <span>Battle Royale (e.g. PUBG, Fortnite, Apex Legends, Warzone)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="shooter" value="Looter Shooters">
+                        <label></label>
+                        <span>Looter Shooters (e.g. Escape from Tarkov, Borderlands, The Division)</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="shooter" value="Tactical Shooters">
+                        <label></label>
+                        <span>Tactical Shooters (e.g. Counter-Stike, Valorant, Rainbow Six Siege)</span>
+                    </div>
+                </div>
+                <div class="live">
+                    <span class="word5">Others, please specify:</span>
+                    <input class="other-live otherShooter" type="text" placeholder="">
+                </div>
+                <div class="word-title">Do you have a Steam account?</div>
+                <div class="sel-box steam">
+                    <div class="sel-list">
+                        <input type="radio" name="steam" value="Yes">
+                        <label></label>
+                        <span>Yes</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="steam" value="No">
+                        <label></label>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="word-title">Does your PC meet the following minimum system requirements to run the test client?</div>
+                <div class="check-box cli-box">
+                    <div class="cli-list">
+                        <span class="cli-left">OS:</span>
+                        <span>Windows 7, Windows 8.1, Windows 10</span>
+                    </div>
+                    <div class="cli-list">
+                        <span class="cli-left">Processor:</span>
+                        <span>Intel i5 or equivalent</span>
+                    </div>
+                    <div class="cli-list">
+                        <span class="cli-left">Memory:</span>
+                        <span>8G RAM</span>
+                    </div>
+                    <div class="cli-list">
+                        <span class="cli-left">Graphics:</span>
+                        <span>nVidia GeForce GTX 660 or equivalent</span>
+                    </div>
+                    <div class="cli-list">
+                        <span class="cli-left">Network:</span>
+                        <span>Broadband Internet connection</span>
+                    </div>
+                    <div class="cli-list">
+                        <span class="cli-left">Storage:</span>
+                        <span>15GB available space</span>
+                    </div>
+                    <div class="cli-list">
+                        <span class="cli-left">Sound Card:</span>
+                        <span>Direct X compatible using the lastest drivers</span>
+                    </div>
+                </div>
+                <div class="sel-box testClient">
+                    <div class="sel-list">
+                        <input type="radio" name="testClient" value="Yes">
+                        <label></label>
+                        <span>Yes</span>
+                    </div>
+                    <div class="sel-list">
+                        <input type="radio" name="testClient" value="No">
+                        <label></label>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="word-title flex-row-start" style="margin-top: 45px;">
+                    <div class="sel-list" style="width: 40px;">
+                        <input type="radio" name="value1" data="checked" value="value1">
+                        <label></label>
+                    </div>
+                    <p>By checking this box I confirm that I have read and agree to the  <span>End User License Agreement (EULA)</span></p>
+                </div>
+                <div class="word-title flex-row-start">
+                    <div class="sel-list" style="width: 40px;">
+                        <input type="radio" name="value2" value="value2">
+                        <label></label>
+                    </div>
+                    <p>By checking this box I confirm that I have read and acknowledge the <span>Privacy Policy</span></p>
+                </div>
+                <div class="word-title flex-row-start">
+                    <div class="sel-list" style="width: 40px;">
+                        <input type="radio" name="value3" value="value3">
+                        <label></label>
+                    </div>
+                    <p style="width: 1250px">By checking this box I acknowledge and agree to undertake the confidentiality obligations set in <span>Section 11 of the EULA</span> and will not stream, record, capture, publish, post or distribute any footage, imagery or audio of the game during the course of the Advanced Alpha or after its conclusion.</p>
+                </div>
+                <img src="images/submit.png" alt="" class="submit">
+            </div>
+        </div>
+      
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+.f_head1 { width: 100%;padding-top:41%;background-image: url(../images/tactical_head_01.jpg);background-size: 100% auto; background-position: center bottom;background-repeat: no-repeat;background-color: #1b1f28;}
+.feature_bg {width: 100%;height:auto; padding: 75px 0;background-image: url(../images/feature_bg.jpg); background-size: 100% auto; background-color: #1b1f28; background-position: right top; background-repeat: no-repeat;}
+.f_cont { width:53%;margin:0 auto 11%;font-size:24px;line-height: 36px;color: #fff; padding-left:4.4%;}
+.f_cont p span {font-size:44px;}
+.f_title { position: absolute;width:37%;left:12.55%;bottom:65px;}
+.f_line { width:6.6%;left:-10%;top:0;}
+
+.copytright {width: 916px; text-align: center;margin:0 auto;font-size: 16px; color: #fff;font-family: 'Eurostile-Reg';}
+.at {margin-bottom:3%;}
+ul.sns { display: block; overflow: hidden; padding-left:263px;margin-bottom:3%;}
+ul.sns li { width:58px;height: 68px;display: block; margin-right:26px; float: left;}
+ul.sns li a {width:58px;height: 68px; display: block; background-image: url(../images/sns_ico.png); background-repeat: no-repeat;}
+ul.sns li a:hover { opacity: 0.8; transform: scale(0.9);}
+ul.sns li a.s1 { background-position:0 0;}
+ul.sns li a.s2 { background-position:-84px 0;}
+ul.sns li a.s3 { background-position:-167px 0;}
+ul.sns li a.s4 { background-position:-250px 0;}
+ul.sns li a.s5 { background-position:-334px 0;}
+ul.links { display: block; text-align: center;margin-bottom:4%;}
+ul.links li { display:inline-block; margin:0 5%;}
+ul.links li a { color: #fff;}
+ul.links li a:hover {color: #c81346;}
+.cr { font-size: 14px;opacity:0.5;}
