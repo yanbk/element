@@ -146,11 +146,18 @@
                         <label></label>
                         <span>United States</span>
                     </div>
+                    <div class="sel-list"></div>
+                    <div class="sel-list" style="width: 100%;">
+                        <input type="radio" name="country" value="others">
+                        <label></label>
+                        <span>Others, please specfify:</span>
+                        <input class="other-live otherCountry" type="text" placeholder="Country…">
+                    </div>
                 </div>
-                <div class="live">
+                <!-- <div class="live">
                     <span class="word5">Others, please specfify:</span>
                     <input class="other-live otherCountry" type="text" placeholder="Country…">
-                </div>
+                </div> -->
                 <div class="word-title">Which of the following genres of PC/Console Games do you play most offen? (Choose 3 options)</div>
                 <div class="check-box genres">
                     <div class="sel-list">
@@ -250,11 +257,17 @@
                         <label></label>
                         <span>Tactical Shooters (e.g. Counter-Stike, Valorant, Rainbow Six Siege)</span>
                     </div>
+                    <div class="sel-list">
+                        <input type="radio" name="shooter" value="others">
+                        <label></label>
+                        <div style="width: 2.3rem;">Others, please specify:</div>
+                        <input class="other-live otherShooter" type="text" placeholder="">
+                    </div>
                 </div>
-                <div class="live">
+                <!-- <div class="live">
                     <span class="word5">Others, please specify:</span>
                     <input class="other-live otherShooter" type="text" placeholder="">
-                </div>
+                </div> -->
                 <div class="word-title">Do you have a Steam account?</div>
                 <div class="sel-box steam">
                     <div class="sel-list">
@@ -292,7 +305,7 @@
                     </div>
                     <div class="cli-list">
                         <span class="cli-left">Storage:</span>
-                        <span>15GB available space</span>
+                        <span>30GB available space</span>
                     </div>
                     <div class="cli-list">
                         <span class="cli-left">Sound Card:</span>
@@ -340,7 +353,7 @@
             </div>
         </div>
       
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/index.js"></script>
     </body>
 </html>
