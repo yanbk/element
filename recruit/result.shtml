@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- End Facebook Pixel Code -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <div class="result-page">
+        <img class="header" src="images/header.png" alt="">
+        <div class="result-word1">
+            You have successfully applied to<br/>
+            the Advanced Alpha of SYNCED: Off-Planet!
+        </div>
+        <div class="result-word2">
+            We will review your application, <br/>
+            and if you qualify for the test you will receive a confirmation email soon!<br/>
+            Keep an eye on your spam folder<br/>
+            to make sure you don't miss our emails
+        </div>
+        <div class="result-word3">The SYNCED: Off-Planet team</div>
+        <a href="javascript:;" class="result-word4">
+            <img src="images/icon1.png" alt="">
+            <span>JOIN OUR DISCORD</span>
+        </a>
+        <a href="/case/2020/recruit/index.shtml"><img class="sure" src="images/ok.png" alt=""></a>
+    </div>
+</body>
+</html>

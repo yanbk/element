@@ -2,16 +2,33 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="author" content="Proxima Beta">
-        <meta name="Copyright" content="Proxima Beta">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
         <title></title>
+        <script>
+            (function (win, doc) {
+                if (!win.addEventListener) return;
+                var html = document.documentElement;
+                function setFont() {
+                    var html = document.documentElement;
+                    var k = 750;
+                    html.style.fontSize = html.clientWidth / k * 100 + "px";
+                }
+                setFont();
+                setTimeout(function () {
+                    setFont();
+                }, 300);
+                doc.addEventListener('DOMContentLoaded', setFont, false);
+                win.addEventListener('resize', setFont, false);
+                win.addEventListener('load', setFont, false);
+            })(window, document);
+
+        </script>
         <!-- End Facebook Pixel Code -->
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/index.css">
     </head>
     <body>
         <div class="q-container">
-            <img class="header" src="images/header.png" alt="">
             <div class="q-main">
                 <div class="word1">SIGN UP FOR THE SYNCED: OFF-PLANET ADVANCED ALPHA TODAY!</div>
                 <div class="word2">Register now for exclusive skins and other unique rewards!</div>
@@ -253,7 +270,7 @@
                 </div>
                 <div class="word-title">Does your PC meet the following minimum system requirements to run the test client?</div>
                 <div class="check-box cli-box">
-                    <div class="cli-list">
+                    <div class="cli-list" style="margin-top: 0.2rem">
                         <span class="cli-left">OS:</span>
                         <span>Windows 7, Windows 8.1, Windows 10</span>
                     </div>
@@ -294,28 +311,30 @@
                         <span>No</span>
                     </div>
                 </div>
-                <div class="word-title flex-row-start" style="margin-top: 45px;">
-                    <div class="sel-list" style="width: 40px;">
+                <div class="word-title flex-row-start" style="margin-top: 0.4rem;">
+                    <div class="sel-list" style="width: 0.45rem;">
                         <input type="checkbox" name="terms" data="checked" value="value1">
                         <label></label>
                     </div>
                     <p>By checking this box I confirm that I have read and agree to the  <span>End User License Agreement (EULA)</span></p>
                 </div>
                 <div class="word-title flex-row-start">
-                    <div class="sel-list" style="width: 40px;">
+                    <div class="sel-list" style="width: 0.45rem;">
                         <input type="checkbox" name="terms" value="value2">
                         <label></label>
                     </div>
                     <p>By checking this box I confirm that I have read and acknowledge the <span>Privacy Policy</span></p>
                 </div>
                 <div class="word-title flex-row-start">
-                    <div class="sel-list" style="width: 40px;">
+                    <div class="sel-list" style="width: 0.45rem;">
                         <input type="checkbox" name="terms" value="value3">
                         <label></label>
                     </div>
-                    <p style="width: 1250px">By checking this box I acknowledge and agree to undertake the confidentiality obligations set in <span>Section 11 of the EULA</span> and will not stream, record, capture, publish, post or distribute any footage, imagery or audio of the game during the course of the Advanced Alpha or after its conclusion.</p>
+                    <p>By checking this box I acknowledge and agree to undertake the confidentiality obligations set in <span>Section 11 of the EULA</span> and will not stream, record, capture, publish, post or distribute any footage, imagery or audio of the game during the course of the Advanced Alpha or after its conclusion.</p>
                 </div>
-                <div class="terms-tip">In order to proceed you must agree to all these terms by checking all the boxes</div>
+                <div style="height: 0.6rem; padding-top: 0.1rem;">
+                   <div class="terms-tip">In order to proceed you must agree to all these terms by checking all the boxes</div> 
+                </div>
                 <img src="images/submit.png" alt="" class="submit">
                 <div class="submit-tip">In order to proceed you must finish all these questions</div>
             </div>

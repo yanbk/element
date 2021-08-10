@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title></title>
+    <script>
+        (function (win, doc) {
+            if (!win.addEventListener) return;
+            var html = document.documentElement;
+            function setFont() {
+                var html = document.documentElement;
+                var k = 750;
+                html.style.fontSize = html.clientWidth / k * 100 + "px";
+            }
+            setFont();
+            setTimeout(function () {
+                setFont();
+            }, 300);
+            doc.addEventListener('DOMContentLoaded', setFont, false);
+            win.addEventListener('resize', setFont, false);
+            win.addEventListener('load', setFont, false);
+        })(window, document);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-186159946-1');
+        
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="ad1">Advanced Alpha<br/>on <span>Sep 3rd</span></div>
+        <div class="ad2">Join us and get off this planet now!</div>
+        <a href="/case/2020/recruit/question.shtml" class="sign" onclick="gtag('event', 'x_click', {'event_category': 'website','event_label': 'sign_up_btn'});">
+            <img src="images/sign.png" alt="">
+        </a>
+        <div class="add">
+            <img src="images/icon.png" alt="">
+            <a target="_blank" href="https://store.steampowered.com/app/1008080">Add to Steam Wishlist</a>
+        </div>
+        <img class="video-btn" src="images/vb.png" alt="">
+        <div class="tag-title">Age Tags and other games</div>
+        <div class="icons">
+            <a target="_blank" href="javascript:;"></a>
+            <a target="_blank" href="javascript:;"></a>
+            <a target="_blank" href="javascript:;"></a>
+            <a target="_blank" href="javascript:;"></a>
+            <a target="_blank" href="javascript:;"></a>
+            <a target="_blank" href="javascript:;"></a>
+        </div>
+        <div class="links">
+            <a href="">Customer Service</a>
+            <span></span>
+            <a href="">Terms of Use</a>
+            <span></span>
+            <a href="">Privacy</a>
+            <span></span>
+            <a href="">Partnership Inquiry</a>
+        </div>
+        <div class="bot-desc">Copyright © 2021 Tencent. All Rights Reserved</div>
+    </div>
+</body>
+</html>
